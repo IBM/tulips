@@ -1,0 +1,8 @@
+*.core
+*.fifo
+*.pcap
+*.swp
+*build*
+.idea
+.nfs*
+index.html

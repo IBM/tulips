@@ -1,0 +1,28 @@
+{
+  "src/*.cpp": {
+    "alternate": "include/tulips/{}.h",
+    "type": "source"
+  },
+  "include/tulips/*.h": {
+    "alternate": "src/{}.cpp",
+    "type": "header"
+  },
+  "apps/*.cpp": {
+    "type": "app"
+  },
+  "tests/*.cpp": {
+    "type": "test"
+  },
+  "tools/*.c": {
+    "alternate": "tools/{}.h",
+    "type": "tool"
+  },
+  "tools/*.cpp": {
+    "alternate": "tools/{}.h",
+    "type": "tool"
+  },
+  "tools/*.h": {
+    "alternate": [ "tools/{}.c", "tools/{}.cpp" ],
+    "type": "tool"
+  }
+}

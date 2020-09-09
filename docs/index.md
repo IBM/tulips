@@ -1,6 +1,4 @@
-# TULIPS
-
-The Ultra-Low latency TCP/IP Stack.
+Topics and relevant pages:
 
 #### Architecture
 
